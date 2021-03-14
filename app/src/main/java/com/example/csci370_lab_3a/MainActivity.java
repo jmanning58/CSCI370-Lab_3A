@@ -11,12 +11,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private ListView students;
     private Context mContext;
     private LayoutInflater mInflator;
-    private ArrayList<Student> mDataSource;
+    //private ArrayList<Student> mDataSource;
+
     String[] studentFirstName = {"Alli", "George", "Danni", "Alex", "Sarah"};
     String[] studentLastName = {"Witheren", "Baruso", "Sykes", "Mitchel", "Stapleton"};
     String[] majors = {"Biology", "Spanish", "History", "Sociology", "Dance"};
