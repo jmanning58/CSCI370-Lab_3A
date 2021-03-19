@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Context mContext;
     private LayoutInflater mInflator;
-    //private ArrayList<Student> mDataSource;
+    
 
     Student firstStudent = new Student("Alli", "Witheren", "Biology");
     Student secondStudent = new Student("George", "Baruso", "Spanish");
